@@ -133,6 +133,7 @@
       "getOldVersion": "Alte Versionen Herunterladen",
       "noOldVersions": "Es sind keine alten Versionen Verfügbar",
       "noObjects": "Diese Map hat keine Objekte.",
+      "noRatings": "Diese Map hat noch keine Bewertungen erhalten.",
       "weatherID": "Wetter ID {id}",
       "commentsDisabled": "Kommentare sind für diese Map deaktiviert.",
       "addComment": "Kommentar hinzufügen...",

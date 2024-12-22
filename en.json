@@ -140,6 +140,7 @@
       "getOldVersion": "Download previous versions",
       "noOldVersions": "No previous versions available",
       "noObjects": "This map has no objects.",
+      "noRatings": "This map has not been rated yet.",
       "weatherID": "Weather ID {id}",
       "commentsDisabled": "Comments for this map have been disabled.",
       "addComment": "Add comment...",
