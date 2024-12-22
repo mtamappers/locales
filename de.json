@@ -20,7 +20,13 @@
     "comment": "Kommentieren",
     "comments": "Kommentar | Kommentare",
     "maps": "Map | Maps",
-    "tos": "Nutzungsbedingungen"
+    "tos": "Nutzungsbedingungen",
+
+    "toasts": {
+      "success": "Erfolg!",
+      "somethingWrong": "Etwas ist schief gelaufen!",
+      "loading": "Lade..."
+    }
   },
 
   "timeAgo": {
@@ -70,6 +76,7 @@
   },
 
   "notifications": {
+    "default": "{content}",
     "rated": "{user} hat {ref} eine Bewertung von {content} gegeben",
     "commented": "{user} hat {ref} kommentiert",
     "replyToComment": "{user} hat auf deinen Kommentar zu {ref} geantwortet"
