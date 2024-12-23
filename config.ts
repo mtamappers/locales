@@ -9,7 +9,8 @@ export const i18nConfig = {
      * rtl: Does the language use (R)ight (T)o (L)eft text direction?
      */
     { name: 'English', code: 'en', tag: 'en-US', alpha2: 'GB-UKM', file: 'en.json', rtl: false },
-    { name: 'German', code: 'de', tag: 'de-DE', alpha2: 'DE', file: 'de.json', rtl: false }
+    { name: 'German', code: 'de', tag: 'de-DE', alpha2: 'DE', file: 'de.json', rtl: false },
+    { name: 'Portuguese', code: 'pt', tag: 'pt-BR', alpha2: 'PT', file: 'pt-br.json', rtl: false }
   ],
   defaultLocale: 'en',
   detectBrowserLanguage: {
