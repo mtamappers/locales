@@ -79,7 +79,8 @@
     "default": "{content}",
     "rated": "{user} has given a rating of {content} to {ref}",
     "commented": "{user} commented on {ref}",
-    "replyToComment": "{user} replied to your comment on {ref}"
+    "replyToComment": "{user} replied to your comment on {ref}",
+    "mapAccepted": "Your map {ref} has been accepted",
   },
 
   "pages": {
