@@ -10,7 +10,8 @@ export const i18nConfig = {
      */
     { name: 'English', code: 'en', tag: 'en-US', alpha2: 'GB-UKM', file: 'en.json', rtl: false },
     { name: 'German', code: 'de', tag: 'de-DE', alpha2: 'DE', file: 'de.json', rtl: false },
-    { name: 'Portuguese', code: 'pt', tag: 'pt-BR', alpha2: 'PT', file: 'pt-br.json', rtl: false }
+    { name: 'Portuguese', code: 'pt', tag: 'pt-BR', alpha2: 'PT', file: 'pt-br.json', rtl: false },
+    { name: 'Russian', code: 'ru', tag: 'ru-RU', alpha2: 'RU', file: 'ru.json', rtl: false }
   ],
   defaultLocale: 'en',
   detectBrowserLanguage: {
