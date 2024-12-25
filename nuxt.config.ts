@@ -19,6 +19,7 @@ export const i18nConfig = {
     fallbackLocale: 'en',
     cookieKey: 'mtavault-lang'
   },
+  vueI18n: './i18n/locales/i18n.config.ts',
   strategy: 'no_prefix',
   lazy: true
 };
