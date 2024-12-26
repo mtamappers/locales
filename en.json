@@ -78,6 +78,7 @@
 
   "notifications": {
     "default": "{content}",
+    "award": "Your map {ref} has received an award",
     "rated": "{user} has given a rating of {content} to {ref}",
     "commented": "{user} commented on {ref}",
     "replyToComment": "{user} replied to your comment on {ref}",
