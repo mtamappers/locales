@@ -1,0 +1,170 @@
+"common": {
+    "published": "Opublikowano {date}",
+    "by": "przez",
+    "views": "Wyświetlenie | Wyświetlenia",
+    "upload": "Prześlij",
+    "download": "Pobierz",
+    "downloads": "Pobranie | Pobrania",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "reply": "Odpowiedz",
+    "vehicles": "Pojazd | Pojazdy",
+    "noDescription": "Brak opisu",
+    "name": "Nazwa",
+    "model": "Model",
+    "amount": "Ilość",
+    "comment": "Komentarz",
+    "comments": "Komentarz | Komentarze",
+    "maps": "Mapa | Mapy",
+    "tos": "Regulamin",
+
+    "toasts": {
+      "success": "Sukces!",
+      "somethingWrong": "Coś poszło nie tak!",
+      "loading": "Ładowanie..."
+    }
+  },
+
+  "timeAgo": {
+    "just-now": "przed chwilą",
+    "ago": "{0} temu",
+    "in": "za {0}",
+    "last-month": "w zeszłym miesiącu",
+    "next-month": "w przyszłym miesiącu",
+    "month": "miesiąc | miesiące",
+    "last-year": "w zeszłym roku",
+    "next-year": "w przyszłym roku",
+    "year": "rok | lata",
+    "yesterday": "wczoraj",
+    "tomorrow": "jutro",
+    "day": "dzień | dni",
+    "last-week": "w zeszłym tygodniu",
+    "next-week": "w przyszłym tygodniu",
+    "week": "tydzień | tygodnie",
+    "hour": "godzina | godziny",
+    "minute": "minuta | minuty",
+    "second": "sekunda | sekundy"
+  },
+
+  "navigation": {
+    "home": "Strona główna",
+    "scripts": "Skrypty",
+    "assets": "Zasoby",
+    "blogs": "Blogi",
+    "upload": "Prześlij",
+    "usermenu": {
+      "notifications": "Powiadomienia",
+      "noRecentNotifications": "Brak ostatnich powiadomień",
+      "seeAll": "Zobacz wszystkie",
+      "markAllRead": "Oznacz wszystkie jako przeczytane",
+      "settings": "Ustawienia",
+      "myMaps": "Moje mapy",
+      "administration": "Administracja",
+      "logout": "Wyloguj"
+    }
+  },
+
+  "hero": {
+    "description": {
+      "primary": "udostępnianie map Multi Theft Auto: San Andreas",
+      "secondary": "łatwiejsze niż kiedykolwiek"
+    }
+  },
+
+  "notifications": {
+    "default": "{content}",
+    "rated": "{user} ocenił {content} na {ref}",
+    "commented": "{user} skomentował {ref}",
+    "replyToComment": "{user} odpowiedział na Twój komentarz do {ref}",
+    "mapAccepted": "Twoja mapa {ref} została zaakceptowana",
+  },
+
+  "pages": {
+    "index": {
+      "filterSort": {
+        "results": "wynik | wyniki",
+        "searchPlaceholder": "Szukaj...",
+        "suggestion": "Sugestia:",
+        "search": "Szukaj",
+        "searchMaps": "Szukaj map",
+        "builtBy": "stworzony przez",
+        "withTag": "z tagiem",
+        "usingVehicle": "z użyciem pojazdu",
+        "sortBy": "Sortuj według",
+        "mostRecent": "Najbardziej aktualne",
+        "popular": "Popularne",
+        "top": "Najlepsze",
+        "mostAwards": "Najbardziej nagrodzone",
+        "lastUpdated": "Ostatnio zaktualizowane",
+        "releaseDate": "Data wydania",
+        "all": "Wszystkie",
+        "thisYear": "W tym roku",
+        "thisMonth": "W tym miesiącu",
+        "thisWeek": "W tym tygodniu",
+        "today": "Dzisiaj"
+      }
+    },
+
+    "profile": {
+      "dlPack": "Pobierz paczkę map",
+      "socials": "Social Media",
+      "activity": "Aktywność",
+      "noActivity": "Brak ostatnich aktywności",
+      "memberSince": "Członek od",
+      "mostRecentMap": "Najnowsza mapa",
+      "noMaps": "Ten użytkownik nie opublikował jeszcze żadnych map.",
+    },
+
+    "map": {
+      "cardTitles": {
+        "comments": "Komentarze",
+        "informations": "Informacje o mapie",
+        "authorsComment": "Komentarz autora",
+        "mostUsedObjects": "Najczęściej używane obiekty",
+        "embeddedAssets": "Osadzone zasoby",
+        "records": "Rekordy",
+        "whoRated": "Kto ocenił tę mapę",
+      },
+      "carousel": {
+        "ohNo": "O nie!",
+        "nothing": "Wygląda na to, że nie mamy nic do pokazania",
+        "contact": "Możesz skontaktować się z nami na {discord} i przesłać filmy/zdjęcia"
+      },
+      "notApproved": "Ta mapa nie została jeszcze zaakceptowana.",
+      "isPrivate": "Ta mapa jest ustawiona jako prywatna.",
+      "notAvailable": "Ta mapa nie jest dostępna do pobrania.",
+      "browseFiles": "Przeglądaj pliki",
+      "getOldVersion": "Pobierz poprzednie wersje",
+      "noOldVersions": "Brak dostępnych poprzednich wersji",
+      "noObjects": "Ta mapa nie zawiera obiektów.",
+      "noRatings": "Ta mapa nie została jeszcze oceniona.",
+      "weatherID": "ID pogody {id}",
+      "commentsDisabled": "Komentarze dla tej mapy zostały wyłączone.",
+      "addComment": "Dodaj komentarz...",
+      "addReply": "Odpowiedz..."
+    },
+
+    "upload": {
+      "disclaimer": "Przesłane pliki są ręcznie weryfikowane, co może zająć trochę czasu.",
+      "queue": "Kolejka:",
+      "pendingFiles": "{0} oczekujące pliki",
+      "browseFiles": "Przeglądaj pliki",
+      "dnd": "Przeciągnij i upuść pliki tutaj",
+      "tos": "Przesyłając mapę(y), zgadzasz się z {link} serwisu mtavault",
+      "requirements": {
+        "cardTitle": "Wymagania",
+        "fileType": "Musi być plikiem typu {extensions}",
+        "fileSize": "Nie może być większy niż {uploadLimit}",
+        "essentials": "Muszą być załączone pliki niezbędne",
+        "essentialsEx": "np. dla map: meta.xml, *.map",
+        "fileName": "Nazwy plików map powinny mieć format:",
+        "fileNameEx": "[ARENA]Autor_Autor_Nazwa.zip",
+        "mapName": "Nazwy map powinny mieć format:",
+        "mapNameEx": "Autor, Autor & Autor - Nazwa"
+      }
+    }
+  }
+}
