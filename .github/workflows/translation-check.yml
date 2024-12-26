@@ -1,0 +1,20 @@
+name: Translation Check
+
+on:
+  push:
+    paths:
+      - './**'
+  pull_request:
+    paths:
+      - './**'
+
+jobs:
+  check-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check Translations
+        uses: krzysztoff1/translation-check@v1.1.0
+        with:
+          main_translation_path: './en.json'
+          translation_paths: './de.json,ru.json,pl.json,pt.json'
