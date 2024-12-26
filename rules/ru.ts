@@ -1,8 +1,7 @@
 export default function (choice, choicesLength, orgRule) {
-  if (choice === 0) {
-    return 0
+  if (choice === 0 || choice === 1) {
+    return choice;
   }
-
   const teen = choice > 10 && choice < 20
   const endsWithOne = choice % 10 === 1
   if (!teen && endsWithOne) {
@@ -12,5 +11,5 @@ export default function (choice, choicesLength, orgRule) {
     return 2
   }
 
-  return choicesLength < 4 ? 2 : 3
+  return choicesLength - 1;
 }

@@ -6,7 +6,7 @@ export default defineI18nConfig(() => ({
   silentFallbackWarn: true,
   missingWarn: false,
   fallbackWarn: false,
-  pluralizationRules: {
+  pluralRules: {
     'ru': ruRule
   }
 }))
