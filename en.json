@@ -107,7 +107,8 @@
         "thisYear": "This Year",
         "thisMonth": "This Month",
         "thisWeek": "This Week",
-        "today": "Today"
+        "today": "Today",
+        "filter": "Filter"
       }
     },
 
