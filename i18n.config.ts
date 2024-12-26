@@ -7,6 +7,6 @@ export default defineI18nConfig(() => ({
   missingWarn: false,
   fallbackWarn: false,
   pluralRules: {
-    'ru': ruRule
+    // 'ru': ruRule
   }
 }))
