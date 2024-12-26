@@ -1,0 +1,19 @@
+name: Validate json files
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 2
+
+    - name: Validate json files
+      uses: RaaLabs/validate-json@v1.0.1
+      with:
+        directory: "."
