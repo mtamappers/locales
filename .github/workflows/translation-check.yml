@@ -1,6 +1,7 @@
 name: Translation Check
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - './**'
