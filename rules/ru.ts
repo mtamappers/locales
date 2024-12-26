@@ -3,7 +3,7 @@ export default function (choice, choicesLength, orgRule) {
     return choice;
   }
 
-  if (choicesLength >= 2) {
+  if (choicesLength >= 3) {
     const teen = choice > 10 && choice < 20
     const endsWithOne = choice % 10 === 1
     if (!teen && endsWithOne) {
