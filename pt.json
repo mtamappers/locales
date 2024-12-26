@@ -80,7 +80,7 @@
     "rated": "{user} avaliou {content} com {ref}",
     "commented": "{user} comentou em {ref}",
     "replyToComment": "{user} respondeu ao seu comentário em {ref}",
-    "mapAccepted": "Seu mapa {ref} foi aceito",
+    "mapAccepted": "Seu mapa {ref} foi aceito"
   },
 
   "pages": {

@@ -80,7 +80,7 @@
     "rated": "{user} ocenił {content} na {ref}",
     "commented": "{user} skomentował {ref}",
     "replyToComment": "{user} odpowiedział na Twój komentarz do {ref}",
-    "mapAccepted": "Twoja mapa {ref} została zaakceptowana",
+    "mapAccepted": "Twoja mapa {ref} została zaakceptowana"
   },
 
   "pages": {
@@ -116,7 +116,7 @@
       "noActivity": "Brak ostatnich aktywności",
       "memberSince": "Członek od",
       "mostRecentMap": "Najnowsza mapa",
-      "noMaps": "Ten użytkownik nie opublikował jeszcze żadnych map.",
+      "noMaps": "Ten użytkownik nie opublikował jeszcze żadnych map."
     },
 
     "map": {
@@ -127,7 +127,7 @@
         "mostUsedObjects": "Najczęściej używane obiekty",
         "embeddedAssets": "Osadzone zasoby",
         "records": "Rekordy",
-        "whoRated": "Kto ocenił tę mapę",
+        "whoRated": "Kto ocenił tę mapę"
       },
       "carousel": {
         "ohNo": "O nie!",

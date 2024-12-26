@@ -82,7 +82,7 @@
     "rated": "{user} has given a rating of {content} to {ref}",
     "commented": "{user} commented on {ref}",
     "replyToComment": "{user} replied to your comment on {ref}",
-    "mapAccepted": "Your map {ref} has been accepted",
+    "mapAccepted": "Your map {ref} has been accepted"
   },
 
   "pages": {
@@ -119,7 +119,7 @@
       "noActivity": "No recent activities",
       "memberSince": "Mitglied seit",
       "mostRecentMap": "Most Recent Map",
-      "noMaps": "This user has not released any maps yet.",
+      "noMaps": "This user has not released any maps yet."
     },
 
     "map": {
@@ -130,7 +130,7 @@
         "mostUsedObjects": "Most Used Objects",
         "embeddedAssets": "Embedded Assets",
         "records": "Records",
-        "whoRated": "Who rated this map",
+        "whoRated": "Who rated this map"
       },
       "carousel": {
         "ohNo": "Oh no!",
