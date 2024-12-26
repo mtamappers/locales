@@ -1,9 +1,9 @@
 export default function (choice, choicesLength, orgRule) {
-  if (choice === 0 || choice === 1) {
-    return choice;
-  }
-
   if (choicesLength >= 3) {
+    if (choice === 0 || choice === 1) {
+      return choice;
+    }
+
     const teen = choice > 10 && choice < 20
     const endsWithOne = choice % 10 === 1
     if (!teen && endsWithOne) {
@@ -15,6 +15,7 @@ export default function (choice, choicesLength, orgRule) {
 
     return choicesLength - 1;
   }
+  else return choice;
 }
 
 // https://kazupon.github.io/vue-i18n/guide/pluralization.html#custom-pluralization
