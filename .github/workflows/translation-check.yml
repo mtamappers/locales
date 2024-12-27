@@ -18,4 +18,4 @@ jobs:
         uses: krzysztoff1/translation-check@v1.1.0
         with:
           main_translation_path: './en.json'
-          translation_paths: './de.json,ru.json,pl.json,pt.json'
+          translation_paths: './de.json,ru.json,pl.json,pt.json,es.json'
