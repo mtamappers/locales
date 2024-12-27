@@ -1,32 +1,30 @@
 {
-  "common": {
-    "published": "Publicado em {date}",
-    "by": "por",
-    "views": "Visualização | Visualizações",
-    "upload": "Enviar",
-    "download": "Baixar",
-    "downloads": "Download | Downloads",
-    "cancel": "Cancelar",
-    "close": "Fechar",
-    "delete": "Excluir",
-    "confirm": "Confirmar",
-    "save": "Salvar",
-    "reply": "Responder",
-    "vehicles": "Veículo | Veículos",
-    "noDescription": "Sem descrição",
-    "name": "Nome",
-    "model": "Modelo",
-    "amount": "Quantidade",
-    "comment": "Comentário",
-    "comments": "Comentário | Comentários",
-    "maps": "Mapa | Mapas",
-    "tos": "Termos de Serviço",
+  "published": "Publicado em {date}",
+  "by": "por",
+  "views": "Visualização | Visualizações",
+  "upload": "Enviar",
+  "download": "Baixar",
+  "downloads": "Download | Downloads",
+  "cancel": "Cancelar",
+  "close": "Fechar",
+  "delete": "Excluir",
+  "confirm": "Confirmar",
+  "save": "Salvar",
+  "reply": "Responder",
+  "vehicles": "Veículo | Veículos",
+  "noDescription": "Sem descrição",
+  "name": "Nome",
+  "model": "Modelo",
+  "amount": "Quantidade",
+  "comment": "Comentário",
+  "comments": "Comentário | Comentários",
+  "maps": "Mapa | Mapas",
+  "tos": "Termos de Serviço",
 
-    "toasts": {
-      "success": "Sucesso!",
-      "somethingWrong": "Algo deu errado!",
-      "loading": "Carregando..."
-    }
+  "toasts": {
+    "success": "Sucesso!",
+    "somethingWrong": "Algo deu errado!",
+    "loading": "Carregando..."
   },
 
   "timeAgo": {

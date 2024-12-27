@@ -1,32 +1,32 @@
 {
-  "common": {
-    "published": "Veröffentlicht am {date}",
-    "by": "von",
-    "views": "Aufruf | Aufrufe",
-    "upload": "Hochladen",
-    "download": "Herunterladen",
-    "downloads": "Download | Downloads",
-    "cancel": "Abbrechen",
-    "close": "Schließen",
-    "delete": "Löschen",
-    "confirm": "Bestätigen",
-    "save": "Speichern",
-    "reply": "Antworten",
-    "vehicles": "Fahrzeug | Fahrzeuge",
-    "noDescription": "Keine Beschreibung",
-    "name": "Name",
-    "model": "Model",
-    "amount": "Anzahl",
-    "comment": "Kommentieren",
-    "comments": "Kommentar | Kommentare",
-    "maps": "Map | Maps",
-    "tos": "Nutzungsbedingungen",
+  "published": "Veröffentlicht am {date}",
+  "by": "von",
+  "views": "Aufruf | Aufrufe",
+  "upload": "Hochladen",
+  "download": "Herunterladen",
+  "downloads": "Download | Downloads",
+  "cancel": "Abbrechen",
+  "close": "Schließen",
+  "delete": "Löschen",
+  "confirm": "Bestätigen",
+  "save": "Speichern",
+  "reply": "Antworten",
+  "vehicles": "Fahrzeug | Fahrzeuge",
+  "noDescription": "Keine Beschreibung",
+  "name": "Name",
+  "model": "Model",
+  "amount": "Anzahl",
+  "comment": "Kommentieren",
+  "comments": "Kommentar | Kommentare",
+  "maps": "Map | Maps",
+  "featured": "Empfohlen",
+  "recent": "Neu",
+  "tos": "Nutzungsbedingungen",
 
-    "toasts": {
-      "success": "Erfolg!",
-      "somethingWrong": "Etwas ist schief gelaufen!",
-      "loading": "Lade..."
-    }
+  "toasts": {
+    "success": "Erfolg!",
+    "somethingWrong": "Etwas ist schief gelaufen!",
+    "loading": "Lade..."
   },
 
   "timeAgo": {
@@ -63,7 +63,6 @@
       "markAllRead": "Alle als gelesen Markieren",
       "settings": "Einstellungen",
       "myMaps": "Meine Maps",
-      "myNotifications": "Mein Benachrichtigungen",
       "administration": "Administration",
       "logout": "Abmelden"
     }
@@ -107,7 +106,8 @@
         "thisYear": "Dieses Jahr",
         "thisMonth": "Diesen Monat",
         "thisWeek": "Diese Woche",
-        "today": "Heute"
+        "today": "Heute",
+        "filter": "Filter"
       }
     },
 
@@ -119,6 +119,19 @@
       "memberSince": "Mitglied seit",
       "mostRecentMap": "Neueste Map",
       "noMaps": "Dieser Nutzer hat noch keine Maps Veröffentlicht."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Benutzerkonto",
+        "manage": "Verwalten",
+        "profile": "Profil",
+        "settings": "Einstellungen",
+        "general": "Allgemein",
+        "notifications": "Benachrichtigungen",
+        "myNotifications": "Meine Benachrichtigungen",
+        "myMaps": "Meine Maps"
+      }
     },
 
     "map": {

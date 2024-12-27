@@ -1,32 +1,32 @@
 {
-  "common": {
-    "published": "Published {date}",
-    "by": "by",
-    "views": "View | Views",
-    "upload": "Upload",
-    "download": "Download",
-    "downloads": "Download | Downloads",
-    "cancel": "Cancel",
-    "close": "Close",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "save": "Save",
-    "reply": "Reply",
-    "vehicles": "Vehicle | Vehicles",
-    "noDescription": "No description",
-    "name": "Name",
-    "model": "Model",
-    "amount": "Amount",
-    "comment": "Comment",
-    "comments": "Comment | Comments",
-    "maps": "Map | Maps",
-    "tos": "Terms of Service",
+  "published": "Published {date}",
+  "by": "by",
+  "views": "View | Views",
+  "upload": "Upload",
+  "download": "Download",
+  "downloads": "Download | Downloads",
+  "cancel": "Cancel",
+  "close": "Close",
+  "delete": "Delete",
+  "confirm": "Confirm",
+  "save": "Save",
+  "reply": "Reply",
+  "vehicles": "Vehicle | Vehicles",
+  "noDescription": "No description",
+  "name": "Name",
+  "model": "Model",
+  "amount": "Amount",
+  "comment": "Comment",
+  "comments": "Comment | Comments",
+  "maps": "Map | Maps",
+  "featured": "Featured",
+  "recent": "Recent",
+  "tos": "Terms of Service",
 
-    "toasts": {
-      "success": "Success!",
-      "somethingWrong": "Something went wrong!",
-      "loading": "Loading..."
-    }
+  "toasts": {
+    "success": "Success!",
+    "somethingWrong": "Something went wrong!",
+    "loading": "Loading..."
   },
 
   "timeAgo": {
@@ -63,7 +63,6 @@
       "markAllRead": "Mark all as read",
       "settings": "Settings",
       "myMaps": "My Maps",
-      "myNotifications": "My Notifications",
       "administration": "Administration",
       "logout": "Logout"
     }
@@ -120,6 +119,19 @@
       "memberSince": "Mitglied seit",
       "mostRecentMap": "Most Recent Map",
       "noMaps": "This user has not released any maps yet."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Account",
+        "manage": "Manage",
+        "profile": "Profile",
+        "settings": "Settings",
+        "general": "General",
+        "notifications": "Notifications",
+        "myNotifications": "My Notifications",
+        "myMaps": "My Maps"
+      }
     },
 
     "map": {

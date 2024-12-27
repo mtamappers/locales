@@ -1,32 +1,30 @@
 {
-"common": {
-    "published": "Opublikowano {date}",
-    "by": "przez",
-    "views": "Wyświetlenie | Wyświetlenia",
-    "upload": "Prześlij",
-    "download": "Pobierz",
-    "downloads": "Pobranie | Pobrania",
-    "cancel": "Anuluj",
-    "close": "Zamknij",
-    "delete": "Usuń",
-    "confirm": "Potwierdź",
-    "save": "Zapisz",
-    "reply": "Odpowiedz",
-    "vehicles": "Pojazd | Pojazdy",
-    "noDescription": "Brak opisu",
-    "name": "Nazwa",
-    "model": "Model",
-    "amount": "Ilość",
-    "comment": "Komentarz",
-    "comments": "Komentarz | Komentarze",
-    "maps": "Mapa | Mapy",
-    "tos": "Regulamin",
+  "published": "Opublikowano {date}",
+  "by": "przez",
+  "views": "Wyświetlenie | Wyświetlenia",
+  "upload": "Prześlij",
+  "download": "Pobierz",
+  "downloads": "Pobranie | Pobrania",
+  "cancel": "Anuluj",
+  "close": "Zamknij",
+  "delete": "Usuń",
+  "confirm": "Potwierdź",
+  "save": "Zapisz",
+  "reply": "Odpowiedz",
+  "vehicles": "Pojazd | Pojazdy",
+  "noDescription": "Brak opisu",
+  "name": "Nazwa",
+  "model": "Model",
+  "amount": "Ilość",
+  "comment": "Komentarz",
+  "comments": "Komentarz | Komentarze",
+  "maps": "Mapa | Mapy",
+  "tos": "Regulamin",
 
-    "toasts": {
-      "success": "Sukces!",
-      "somethingWrong": "Coś poszło nie tak!",
-      "loading": "Ładowanie..."
-    }
+  "toasts": {
+    "success": "Sukces!",
+    "somethingWrong": "Coś poszło nie tak!",
+    "loading": "Ładowanie..."
   },
 
   "timeAgo": {
