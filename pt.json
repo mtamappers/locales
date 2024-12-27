@@ -19,6 +19,8 @@
   "comment": "Comentário",
   "comments": "Comentário | Comentários",
   "maps": "Mapa | Mapas",
+  "featured": "Destaque",
+  "recent": "Recentes",
   "tos": "Termos de Serviço",
 
   "toasts": {
@@ -52,7 +54,7 @@
     "home": "Início",
     "scripts": "Scripts",
     "assets": "Recursos",
-    "blogs": "Blogues",
+    "blogs": "Blogs",
     "upload": "Enviar",
     "usermenu": {
       "notifications": "Notificações",
@@ -68,13 +70,14 @@
 
   "hero": {
     "description": {
-      "primary": "compartilhar mapas de Multi Theft Auto: San Andreas",
+      "primary": "compartilhando mapas de Multi Theft Auto: San Andreas",
       "secondary": "mais fácil do que nunca"
     }
   },
 
   "notifications": {
     "default": "{content}",
+    "award": "Seu mapa {ref} recebeu um prêmio",
     "rated": "{user} avaliou {content} com {ref}",
     "commented": "{user} comentou em {ref}",
     "replyToComment": "{user} respondeu ao seu comentário em {ref}",
@@ -95,15 +98,16 @@
         "sortBy": "Ordenar por",
         "mostRecent": "Mais Recentes",
         "popular": "Populares",
-        "top": "Melhores",
-        "mostAwards": "Mais Premiados",
+        "top": "Top",
+        "mostAwards": "Mais Prêmios",
         "lastUpdated": "Última Atualização",
         "releaseDate": "Data de Lançamento",
         "all": "Todos",
         "thisYear": "Este Ano",
         "thisMonth": "Este Mês",
         "thisWeek": "Esta Semana",
-        "today": "Hoje"
+        "today": "Hoje",
+        "filter": "Filtrar"
       }
     },
 
@@ -114,7 +118,20 @@
       "noActivity": "Sem atividades recentes",
       "memberSince": "Membro desde",
       "mostRecentMap": "Mapa Mais Recente",
-      "noMaps": "Este usuário ainda não lançou mapas."
+      "noMaps": "Este usuário ainda não publicou nenhum mapa."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Conta",
+        "manage": "Gerenciar",
+        "profile": "Perfil",
+        "settings": "Configurações",
+        "general": "Geral",
+        "notifications": "Notificações",
+        "myNotifications": "Minhas Notificações",
+        "myMaps": "Meus Mapas"
+      }
     },
 
     "map": {
@@ -135,13 +152,13 @@
       "notApproved": "Este mapa ainda não foi aprovado.",
       "isPrivate": "Este mapa está definido como privado.",
       "notAvailable": "Este mapa não está disponível para download.",
-      "browseFiles": "Explorar Arquivos",
+      "browseFiles": "Procurar Arquivos",
       "getOldVersion": "Baixar versões anteriores",
       "noOldVersions": "Nenhuma versão anterior disponível",
       "noObjects": "Este mapa não possui objetos.",
       "noRatings": "Este mapa ainda não foi avaliado.",
       "weatherID": "ID do Clima {id}",
-      "commentsDisabled": "Os comentários deste mapa foram desativados.",
+      "commentsDisabled": "Os comentários para este mapa foram desativados.",
       "addComment": "Adicionar comentário...",
       "addReply": "Responder..."
     },
@@ -150,16 +167,16 @@
       "disclaimer": "Os envios são revisados manualmente, isso pode levar algum tempo.",
       "queue": "Fila:",
       "pendingFiles": "{0} arquivos pendentes",
-      "browseFiles": "Explorar Arquivos",
+      "browseFiles": "Procurar Arquivos",
       "dnd": "Arraste e solte arquivos aqui",
       "tos": "Ao enviar seu(s) mapa(s), você concorda com os {link} do mtavault",
       "requirements": {
         "cardTitle": "Requisitos",
         "fileType": "Deve ser um arquivo {extensions}",
-        "fileSize": "Não deve exceder {uploadLimit}",
-        "essentials": "Arquivos essenciais devem ser incluídos",
-        "essentialsEx": "por exemplo, para mapas: meta.xml, *.map",
-        "fileName": "Os nomes dos arquivos do mapa devem seguir este formato:",
+        "fileSize": "Não deve ser maior que {uploadLimit}",
+        "essentials": "Os arquivos essenciais devem estar incluídos",
+        "essentialsEx": "ex.: para mapas: meta.xml, *.map",
+        "fileName": "Os nomes dos arquivos devem seguir este formato:",
         "fileNameEx": "[ARENA]Autor_Autor_Nome.zip",
         "mapName": "Os nomes dos mapas devem seguir este formato:",
         "mapNameEx": "Autor, Autor & Autor - Nome"
