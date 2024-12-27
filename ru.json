@@ -19,6 +19,8 @@
   "comment": "Комментировать",
   "comments": "Комментариев | Комментарий | Комментария | Комментариев",
   "maps": "Карта | Карты",
+  "featured": "Рекомендовано",
+  "recent": "Новая",
   "tos": "Условия использования",
 
   "toasts": {
@@ -76,6 +78,7 @@
   "notifications": {
     "default": "{content}",
     "rated": "{user} поставил {ref} рейтинг {content}",
+    "award": "Ваша карта {ref} получила награду",
     "commented": "{user} прокомментировал {ref}",
     "replyToComment": "{user} ответил на ваш комментарий к {ref}",
     "mapAccepted": "Ваша карта {ref} была одобрена"
@@ -103,7 +106,8 @@
         "thisYear": "В этом году",
         "thisMonth": "В этом месяце",
         "thisWeek": "На этой неделе",
-        "today": "Сегодня"
+        "today": "Сегодня",
+        "filter": "Фильтровать"
       }
     },
 
@@ -117,6 +121,19 @@
       "noMaps": "Этот пользователь еще не опубликовал карты."
     },
 
+    "account": {
+      "navigation": {
+        "account": "Аккаунт",
+        "manage": "Управлять",
+        "profile": "Профиль",
+        "settings": "Настройки",
+        "general": "Общие",
+        "notifications": "Уведомления",
+        "myNotifications": "Мои уведомления",
+        "myMaps": "Мои карты"
+      }
+    },
+    
     "map": {
       "cardTitles": {
         "comments": "Комментарии",
