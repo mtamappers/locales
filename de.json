@@ -5,6 +5,7 @@
   "upload": "Hochladen",
   "download": "Herunterladen",
   "downloads": "Download | Downloads",
+  "add": "Hinzufügen",
   "cancel": "Abbrechen",
   "close": "Schließen",
   "delete": "Löschen",
@@ -22,6 +23,15 @@
   "featured": "Empfohlen",
   "recent": "Neu",
   "tos": "Nutzungsbedingungen",
+
+  "difficulty": {
+    "beginner": ["Anfänger", "Definiert puren Mangel an Können, jeder kann es Schaffen. Meistens Oldschool Maps."],
+    "intermediate": ["Mittel", "Erfordert grundlegende Kenntnisse der Spielphysik. Die meisten Maps fallen in diese Kategorie."],
+    "advanced": ["Erweitert", "Benötigt einige Skill Assets zum beenden."],
+    "expert": ["Experte", "Schwierigere Maps. Kennt man die Map nicht, schafft man sie normalerweise nicht. Training erforderlich."],
+    "lunatic": ["Wahnsinnig", "Erfordert umfassende Kenntnisse der Spielphysik. Viele Versuche sind notwendig, um die Map zu beenden."],
+    "impossible": ["Unmöglich", "Wird hauptsächlich für sehr verbuggte oder extrem Schwierige Maps verwendet."]
+  },
 
   "toasts": {
     "success": "Erfolg!",
@@ -149,6 +159,8 @@
         "nothing": "Es sieht so aus, als haben wir nichts das wir zeigen können",
         "contact": "Du kannst uns auf {discord} Kontaktieren und Videos / Bilder bereitstellen"
       },
+      "edit": "Bearbeiten",
+      "reportIssue": "Problem Melden",
       "notApproved": "Diese Map wurde noch nicht freigeschaltet.",
       "isPrivate": "Diese Map ist Private.",
       "notAvailable": "Diese Map ist nicht zum Download Verfügbar.",
@@ -161,6 +173,28 @@
       "commentsDisabled": "Kommentare sind für diese Map deaktiviert.",
       "addComment": "Kommentar hinzufügen...",
       "addReply": "Antworten..."
+    },
+
+    "mapEdit": {
+      "title": "Map Details",
+      "pressEnter": "(Drücke ENTER zum hinzufügen)",
+      "lastUpdate": "Zuletzt Aktualisiert {ago} von {user}",
+      "seoURL": "SEO-Freundliche URL",
+      "authors": "Autoren",
+      "addAuthor": "Füge einen Autor hinzu...",
+      "releaseDate": "Veröffentlichungsdatum",
+      "tags": "Tags",
+      "addTag": "Füge einen Tag hinzu...",
+      "description": "Beschreibung",
+      "difficulty": "Schwierigkeit",
+      "gallery": "Gallerie",
+      "video": "Video",
+      "visibility": "Sichtbarkeit",
+      "public": ["Öffentlich", "Sichtbar für alle"],
+      "private": ["Privat", "Sichtbar für dich, Co-Autoren und Moderatoren"],
+      "toggleComments": "Kommentare Ein-/Ausschalten",
+      "isFeatured": "Ist Empfohlen?",
+      "versions": "Versionen"
     },
 
     "upload": {

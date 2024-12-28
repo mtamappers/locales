@@ -5,6 +5,7 @@
   "upload": "Upload",
   "download": "Download",
   "downloads": "Download | Downloads",
+  "add": "Add",
   "cancel": "Cancel",
   "close": "Close",
   "delete": "Delete",
@@ -22,6 +23,15 @@
   "featured": "Featured",
   "recent": "Recent",
   "tos": "Terms of Service",
+
+  "difficulty": {
+    "beginner": ["Beginner", "Defines pure absence of skill, anyone could finish it. Mostly Oldschool maps."],
+    "intermediate": ["Intermediate", "Requires basic game physics knowledge. Most maps fall under this category."],
+    "advanced": ["Advanced", "Requires some skill assets to be finished."],
+    "expert": ["Expert", "Harder maps, not knowing the map usually results in failing, training needed."],
+    "lunatic": ["Lunatic", "Requires serious game physics knowledge, many attempts needed to finish once."],
+    "impossible": ["Impossible", "Mostly used for extremely buggy / tricky maps."]
+  },
 
   "toasts": {
     "success": "Success!",
@@ -149,6 +159,8 @@
         "nothing": "It looks like we don't have anything to show you",
         "contact": "You can contact us on {discord} and provide videos / images"
       },
+      "edit": "Edit",
+      "reportIssue": "Report Issue",
       "notApproved": "This map has not been approved yet.",
       "isPrivate": "This map is set to private.",
       "notAvailable": "This map is not available to download.",
@@ -161,6 +173,28 @@
       "commentsDisabled": "Comments for this map have been disabled.",
       "addComment": "Add comment...",
       "addReply": "Reply..."
+    },
+
+    "mapEdit": {
+      "title": "Mapdetails",
+      "pressEnter": "(Press ENTER to add)",
+      "lastUpdate": "Last Updated {ago} by {user}",
+      "seoURL": "SEO Friendly URL",
+      "authors": "Authors",
+      "addAuthor": "Add an author...",
+      "releaseDate": "Release Date",
+      "tags": "Tags",
+      "addTag": "Add a tag...",
+      "description": "Description",
+      "difficulty": "Difficulty",
+      "gallery": "Gallery",
+      "video": "Video",
+      "visibility": "Visibility",
+      "public": ["Public", "Visible to everyone"],
+      "private": ["Private", "Visible to you, co-authors and staff"],
+      "toggleComments": "Toggle Comments",
+      "isFeatured": "Is Featured?",
+      "versions": "Versionen"
     },
 
     "upload": {
