@@ -4,7 +4,8 @@
   "views": "Wyświetlenie | Wyświetlenia",
   "upload": "Prześlij",
   "download": "Pobierz",
-  "downloads": "Pobranie | Pobrania",
+  "downloads": "Pobranie | Pobrań",
+  "add": "Dodaj",
   "cancel": "Anuluj",
   "close": "Zamknij",
   "delete": "Usuń",
@@ -19,7 +20,18 @@
   "comment": "Komentarz",
   "comments": "Komentarz | Komentarze",
   "maps": "Mapa | Mapy",
+  "featured": "Polecane",
+  "recent": "Ostatnie",
   "tos": "Regulamin",
+
+  "difficulty": {
+    "beginner": ["Początkujący", "Oznacza całkowity brak umiejętności, każdy jest w stanie ukończyć tę mapę. Głównie mapy Oldschool."],
+    "intermediate": ["Średniozaawansowany", "Wymaga podstawowej wiedzy o fizyce gry. Większość map należy do tej kategorii."],
+    "advanced": ["Zaawansowany", "Wymaga pewnych umiejętności, aby ukończyć."],
+    "expert": ["Ekspert", "Trudniejsze mapy, brak znajomości mapy często prowadzi do porażki, konieczne szkolenie."],
+    "lunatic": ["Szaleniec", "Wymaga zaawansowanej wiedzy o fizyce gry, wiele prób potrzebnych, aby ukończyć."],
+    "impossible": ["Niemożliwe", "Najczęściej używane dla map z dużą ilością błędów lub ekstremalnie trudnych."]
+  },
 
   "toasts": {
     "success": "Sukces!",
@@ -62,7 +74,7 @@
       "settings": "Ustawienia",
       "myMaps": "Moje mapy",
       "administration": "Administracja",
-      "logout": "Wyloguj"
+      "logout": "Wyloguj się"
     }
   },
 
@@ -75,9 +87,10 @@
 
   "notifications": {
     "default": "{content}",
-    "rated": "{user} ocenił {content} na {ref}",
-    "commented": "{user} skomentował {ref}",
-    "replyToComment": "{user} odpowiedział na Twój komentarz do {ref}",
+    "award": "Twoja mapa {ref} otrzymała nagrodę",
+    "rated": "{user} ocenił/a {content} na {ref}",
+    "commented": "{user} skomentował/a {ref}",
+    "replyToComment": "{user} odpowiedział/a na Twój komentarz do {ref}",
     "mapAccepted": "Twoja mapa {ref} została zaakceptowana"
   },
 
@@ -89,7 +102,7 @@
         "suggestion": "Sugestia:",
         "search": "Szukaj",
         "searchMaps": "Szukaj map",
-        "builtBy": "stworzony przez",
+        "builtBy": "stworzono przez",
         "withTag": "z tagiem",
         "usingVehicle": "z użyciem pojazdu",
         "sortBy": "Sortuj według",
@@ -103,7 +116,8 @@
         "thisYear": "W tym roku",
         "thisMonth": "W tym miesiącu",
         "thisWeek": "W tym tygodniu",
-        "today": "Dzisiaj"
+        "today": "Dzisiaj",
+        "filter": "Filtr"
       }
     },
 
@@ -115,6 +129,25 @@
       "memberSince": "Członek od",
       "mostRecentMap": "Najnowsza mapa",
       "noMaps": "Ten użytkownik nie opublikował jeszcze żadnych map."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Konto",
+        "manage": "Zarządzaj",
+        "profile": "Profil",
+        "settings": "Ustawienia",
+        "general": "Ogólne",
+        "notifications": "Powiadomienia",
+        "myNotifications": "Moje powiadomienia",
+        "myMaps": "Moje mapy"
+      },
+      "syncWithDiscord": "Zsynchronizować z Discordem?",
+      "username": "Nazwa użytkownika",
+      "displayName": "Wyświetlana nazwa",
+      "email": "E-mail",
+      "lastSynced": "Ostatnia synchronizacja",
+      "linkedAccounts": "Powiązane konta"
     },
 
     "map": {
@@ -132,6 +165,8 @@
         "nothing": "Wygląda na to, że nie mamy nic do pokazania",
         "contact": "Możesz skontaktować się z nami na {discord} i przesłać filmy/zdjęcia"
       },
+      "edit": "Edytuj",
+      "reportIssue": "Zgłoś problem",
       "notApproved": "Ta mapa nie została jeszcze zaakceptowana.",
       "isPrivate": "Ta mapa jest ustawiona jako prywatna.",
       "notAvailable": "Ta mapa nie jest dostępna do pobrania.",
@@ -146,18 +181,40 @@
       "addReply": "Odpowiedz..."
     },
 
+    "mapEdit": {
+      "title": "Szczegóły mapy",
+      "pressEnter": "(Wciśnij ENTER, aby dodać)",
+      "lastUpdate": "Ostatnia aktualizacja {ago} przez {user}",
+      "seoURL": "Przyjazny adres URL",
+      "authors": "Autorzy",
+      "addAuthor": "Dodaj autora...",
+      "releaseDate": "Data wydania",
+      "tags": "Tagi",
+      "addTag": "Dodaj tag...",
+      "description": "Opis",
+      "difficulty": "Trudność",
+      "gallery": "Galeria",
+      "video": "Wideo",
+      "visibility": "Widoczność",
+      "public": ["Publiczna", "Widoczna dla wszystkich"],
+      "private": ["Prywatna", "Widoczna dla Ciebie, współautorów i zespołu"],
+      "toggleComments": "Włącz/wyłącz komentarze",
+      "isFeatured": "Czy wyróżniona?",
+      "versions": "Wersje"
+    },
+
     "upload": {
-      "disclaimer": "Przesłane pliki są ręcznie weryfikowane, co może zająć trochę czasu.",
+      "disclaimer": "Przesyłane pliki są ręcznie weryfikowane, co może zająć trochę czasu.",
       "queue": "Kolejka:",
       "pendingFiles": "{0} oczekujące pliki",
       "browseFiles": "Przeglądaj pliki",
       "dnd": "Przeciągnij i upuść pliki tutaj",
-      "tos": "Przesyłając mapę(y), zgadzasz się z {link} serwisu mtavault",
+      "tos": "Przesyłając mapy, zgadzasz się z {link} serwisu mtavault",
       "requirements": {
         "cardTitle": "Wymagania",
-        "fileType": "Musi być plikiem typu {extensions}",
-        "fileSize": "Nie może być większy niż {uploadLimit}",
-        "essentials": "Muszą być załączone pliki niezbędne",
+        "fileType": "Plik musi być typu {extensions}",
+        "fileSize": "Rozmiar nie może przekraczać {uploadLimit}",
+        "essentials": "Należy dołączyć niezbędne pliki",
         "essentialsEx": "np. dla map: meta.xml, *.map",
         "fileName": "Nazwy plików map powinny mieć format:",
         "fileNameEx": "[ARENA]Autor_Autor_Nazwa.zip",
