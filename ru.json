@@ -87,7 +87,7 @@
   "pages": {
     "index": {
       "filterSort": {
-        "results": "Результат | Результаты",
+        "results": "Результатов | Результат | Результата | Результатов",
         "searchPlaceholder": "Поиск...",
         "suggestion": "Предложения:",
         "search": "Поиск",
