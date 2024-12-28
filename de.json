@@ -147,7 +147,11 @@
       "displayName": "Anzeige Name",
       "email": "E-Mail",
       "lastSynced": "Zuletzt Synchronisiert",
-      "linkedAccounts": "Verbundene Konten"
+      "linkedAccounts": "Verbundene Konten",
+      "removePhoto": "Foto Löschen",
+      "selectPhoto": "Foto Auswählen",
+      "usePhoto": ["Foto Verwenden", "Lade deinen eigenen Avatar hoch"],
+      "useDiscordAvatar": ["Discord Avatar Verwenden", "Synchronisiere deinen Avatar mit Discord"]
     },
 
     "map": {
