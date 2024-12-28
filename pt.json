@@ -5,6 +5,7 @@
   "upload": "Enviar",
   "download": "Baixar",
   "downloads": "Download | Downloads",
+  "add": "Adicionar",
   "cancel": "Cancelar",
   "close": "Fechar",
   "delete": "Excluir",
@@ -20,8 +21,17 @@
   "comments": "Comentário | Comentários",
   "maps": "Mapa | Mapas",
   "featured": "Destaque",
-  "recent": "Recentes",
+  "recent": "Recente",
   "tos": "Termos de Serviço",
+
+  "difficulty": {
+    "beginner": ["Iniciante", "Define ausência de habilidade, qualquer um pode completar. Geralmente mapas Oldschool."],
+    "intermediate": ["Intermediário", "Requer conhecimento básico da física do jogo. A maioria dos mapas se enquadra nessa categoria."],
+    "advanced": ["Avançado", "Requer algumas habilidades para ser concluído."],
+    "expert": ["Especialista", "Mapas difíceis, desconhecer o mapa geralmente resulta em falhas, é necessário treinar."],
+    "lunatic": ["Insano", "Requer conhecimento avançado da física do jogo, muitas tentativas são necessárias para concluir."],
+    "impossible": ["Impossível", "Usado principalmente para mapas extremamente bugados ou complicados."]
+  },
 
   "toasts": {
     "success": "Sucesso!",
@@ -149,6 +159,8 @@
         "nothing": "Parece que não temos nada para mostrar",
         "contact": "Você pode nos contatar no {discord} e fornecer vídeos/imagens"
       },
+      "edit": "Editar",
+      "reportIssue": "Reportar Problema",
       "notApproved": "Este mapa ainda não foi aprovado.",
       "isPrivate": "Este mapa está definido como privado.",
       "notAvailable": "Este mapa não está disponível para download.",
@@ -161,6 +173,28 @@
       "commentsDisabled": "Os comentários para este mapa foram desativados.",
       "addComment": "Adicionar comentário...",
       "addReply": "Responder..."
+    },
+
+    "mapEdit": {
+      "title": "Detalhes do Mapa",
+      "pressEnter": "(Pressione ENTER para adicionar)",
+      "lastUpdate": "Última atualização há {ago} por {user}",
+      "seoURL": "URL Amigável para SEO",
+      "authors": "Autores",
+      "addAuthor": "Adicionar um autor...",
+      "releaseDate": "Data de Lançamento",
+      "tags": "Tags",
+      "addTag": "Adicionar uma tag...",
+      "description": "Descrição",
+      "difficulty": "Dificuldade",
+      "gallery": "Galeria",
+      "video": "Vídeo",
+      "visibility": "Visibilidade",
+      "public": ["Público", "Visível para todos"],
+      "private": ["Privado", "Visível para você, co-autores e equipe"],
+      "toggleComments": "Ativar/Desativar Comentários",
+      "isFeatured": "Está em Destaque?",
+      "versions": "Versões"
     },
 
     "upload": {
