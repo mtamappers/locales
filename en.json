@@ -141,7 +141,13 @@
         "notifications": "Notifications",
         "myNotifications": "My Notifications",
         "myMaps": "My Maps"
-      }
+      },
+      "syncWithDiscord": "Sync with Discord?",
+      "username": "Username",
+      "displayName": "Display Name",
+      "email": "E-Mail",
+      "lastSynced": "Last Sync",
+      "linkedAccounts": "Linked Accounts"
     },
 
     "map": {
@@ -194,7 +200,7 @@
       "private": ["Private", "Visible to you, co-authors and staff"],
       "toggleComments": "Toggle Comments",
       "isFeatured": "Is Featured?",
-      "versions": "Versionen"
+      "versions": "Versions"
     },
 
     "upload": {

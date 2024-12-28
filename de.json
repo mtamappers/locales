@@ -141,7 +141,13 @@
         "notifications": "Benachrichtigungen",
         "myNotifications": "Meine Benachrichtigungen",
         "myMaps": "Meine Maps"
-      }
+      },
+      "syncWithDiscord": "mit Discord Synchronisieren?",
+      "username": "Benutzername",
+      "displayName": "Anzeige Name",
+      "email": "E-Mail",
+      "lastSynced": "Zuletzt Synchronisiert",
+      "linkedAccounts": "Verbundene Konten"
     },
 
     "map": {
