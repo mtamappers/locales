@@ -125,10 +125,12 @@
       "dlPack": "Download Map Pack",
       "socials": "Socials",
       "activity": "Activity",
+      "aboutMe": "About Me",
       "noActivity": "No recent activities",
       "memberSince": "Mitglied seit",
       "mostRecentMap": "Most Recent Map",
-      "noMaps": "This user has not released any maps yet."
+      "noMaps": "This user has not released any maps yet.",
+      "noBio": "This user has not provided anything about himself."
     },
 
     "account": {
@@ -151,7 +153,8 @@
       "removePhoto": "Remove photo",
       "selectPhoto": "Select photo",
       "usePhoto": ["Use Photo", "Upload your own avatar"],
-      "useDiscordAvatar": ["Use Discord Avatar", "Synchronize your avatar with Discord"]
+      "useDiscordAvatar": ["Use Discord Avatar", "Synchronize your avatar with Discord"],
+      "aboutMe": "About Me"
     },
 
     "map": {

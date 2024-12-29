@@ -125,10 +125,12 @@
       "dlPack": "Map-Bündel Herunterladen",
       "socials": "Socials",
       "activity": "Aktivitäten",
+      "aboutMe": "Über Mich",
       "noActivity": "Keine Aktivitäten",
       "memberSince": "Mitglied seit",
       "mostRecentMap": "Neueste Map",
-      "noMaps": "Dieser Nutzer hat noch keine Maps Veröffentlicht."
+      "noMaps": "Dieser Nutzer hat noch keine Maps Veröffentlicht.",
+      "noBio": "Dieser Nutzer hat keine Angaben gemacht."
     },
 
     "account": {
@@ -151,7 +153,8 @@
       "removePhoto": "Foto Löschen",
       "selectPhoto": "Foto Auswählen",
       "usePhoto": ["Foto Verwenden", "Lade deinen eigenen Avatar hoch"],
-      "useDiscordAvatar": ["Discord Avatar Verwenden", "Synchronisiere deinen Avatar mit Discord"]
+      "useDiscordAvatar": ["Discord Avatar Verwenden", "Synchronisiere deinen Avatar mit Discord"],
+      "aboutMe": "Über Mich"
     },
 
     "map": {
