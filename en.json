@@ -185,7 +185,8 @@
       "weatherID": "Weather ID {id}",
       "commentsDisabled": "Comments for this map have been disabled.",
       "addComment": "Add comment...",
-      "addReply": "Reply..."
+      "addReply": "Reply...",
+      "markedComment": "Marked Comment"
     },
 
     "mapEdit": {
