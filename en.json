@@ -197,6 +197,7 @@
       "authors": "Authors",
       "addAuthor": "Add an author...",
       "releaseDate": "Release Date",
+      "fileName": "File Name",
       "tags": "Tags",
       "addTag": "Add a tag...",
       "description": "Description",
