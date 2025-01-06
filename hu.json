@@ -51,19 +51,19 @@
     "year": "év | év",
     "yesterday": "tegnap",
     "tomorrow": "holnap",
-    "day": "napja | napja",
+    "day": "nap | nap",
     "last-week": "múlt héten",
     "next-week": "jövő héten",
-    "week": "hete | hete",
-    "hour": "órája | órája",
-    "minute": "perce | perce",
-    "second": "másodperce | másodperce"
+    "week": "hét | hét",
+    "hour": "óra | óra",
+    "minute": "perc | perc",
+    "second": "másodperc | másodperc"
   },
 
   "navigation": {
     "home": "Főoldal",
     "scripts": "Scriptek",
-    "assets": "Eszközök",
+    "assets": "Toolok",
     "blogs": "Blogok",
     "upload": "Feltöltés",
     "usermenu": {
@@ -217,7 +217,7 @@
       "queue": "Sor:",
       "pendingFiles": "{0} függőben lévő fájl",
       "browseFiles": "Fájlok Tallózása",
-      "dnd": "Húzd be a fájlokat ide",
+      "dnd": "Húzd ide a fájlokat",
       "tos": "Mapjaid feltöltésével elfogadod a következőt: mtavault {link}",
       "requirements": {
         "cardTitle": "Követelmények",
