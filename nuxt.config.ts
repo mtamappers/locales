@@ -13,7 +13,8 @@ export const i18nConfig = {
     { name: 'Portuguese', code: 'pt', tag: 'pt-BR', alpha2: 'PT', file: 'pt.json', rtl: false },
     { name: 'Russian', code: 'ru', tag: 'ru-RU', alpha2: 'RU', file: 'ru.json', rtl: false },
     { name: 'Polish', code: 'pl', tag: 'pl-PL', alpha2: 'PL', file: 'pl.json', rtl: false },
-    { name: 'Spanish', code: 'es', tag: 'es-ES', alpha2: 'ES', file: 'es.json', rtl: false }
+    { name: 'Spanish', code: 'es', tag: 'es-ES', alpha2: 'ES', file: 'es.json', rtl: false },
+    { name: 'Hungarian', code: 'hu', tag: 'hu-HU', alpha2: 'HU', file: 'hu.json', rtl: false }
   ],
   defaultLocale: 'en',
   detectBrowserLanguage: {
