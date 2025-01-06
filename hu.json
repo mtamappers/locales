@@ -1,0 +1,235 @@
+{
+  "published": "Kiadva {date}",
+  "by": "készítő:",
+  "views": "Megtekintés | Megtekintés",
+  "upload": "Feltöltés",
+  "download": "Letöltés",
+  "downloads": "Letöltés | Letöltés",
+  "add": "Hozzáad",
+  "cancel": "Vissza",
+  "close": "Bezárás",
+  "delete": "Törlés",
+  "confirm": "Megerősítés",
+  "save": "Mentés",
+  "reply": "Válasz",
+  "vehicles": "Jármű | Jármű",
+  "noDescription": "Nincs leírás",
+  "name": "Név",
+  "model": "Model",
+  "amount": "Mennyiség",
+  "comment": "Hozzászólás",
+  "comments": "Hozzászólás | Hozzászólás",
+  "maps": "Map | Map",
+  "featured": "Kiemelt",
+  "recent": "Újdonság",
+  "tos": "Szolgáltatási Feltételek",
+
+  "difficulty": {
+    "beginner": ["Kezdő", "Teljes skill hiánya, bárki ki tudja vinni. Főleg Oldschool mapok."],
+    "intermediate": ["Közepes", "Szükséges az alap játékfizika ismerete. A legtöbb map ebbe a kategóriába esik."],
+    "advanced": ["Haladó", "Szükséges egy kis skill, hogy ki tudd vinni."],
+    "expert": ["Expert", "Nehezebb mapok, amiket általában nem tudsz kivinni ha nem ismersz. Gyakorlás szükséges."],
+    "lunatic": ["Őrült", "Komoly játékfizikai ismeretek szükségesek. Csak többszöri próbálkozásra lehet kivnni."],
+    "impossible": ["Lehetetlen", "Többnyire nagyon bugos / trükkös mapok."]
+  },
+
+  "toasts": {
+    "success": "Siker!",
+    "somethingWrong": "Valami hiba történt!",
+    "loading": "Töltés..."
+  },
+
+  "timeAgo": {
+    "just-now": "épp most",
+    "ago": "ennyivel korábban: {0}",
+    "in": "ennyi idő múlva: {0}",
+    "last-month": "előző hónapban",
+    "next-month": "következő hónapban",
+    "month": "hónapja | hónapja",
+    "last-year": "tavaly",
+    "next-year": "jövőre",
+    "year": "év | év",
+    "yesterday": "tegnap",
+    "tomorrow": "holnap",
+    "day": "napja | napja",
+    "last-week": "múlt héten",
+    "next-week": "jövő héten",
+    "week": "hete | hete",
+    "hour": "órája | órája",
+    "minute": "perce | perce",
+    "second": "másodperce | másodperce"
+  },
+
+  "navigation": {
+    "home": "Főoldal",
+    "scripts": "Scriptek",
+    "assets": "Eszközök",
+    "blogs": "Blogok",
+    "upload": "Feltöltés",
+    "usermenu": {
+      "notifications": "Értesítések",
+      "noRecentNotifications": "Nincs új értesítés",
+      "seeAll": "Mind",
+      "markAllRead": "Mind megjelölése olvasottként",
+      "settings": "Beállítások",
+      "myMaps": "Mapjaim",
+      "administration": "Adminisztráció",
+      "logout": "Kijelentkezés"
+    }
+  },
+
+  "hero": {
+    "description": {
+      "primary": "Multi Theft Auto: San Andreas mapok megosztása",
+      "secondary": "könnyebben, mint valaha"
+    }
+  },
+
+  "notifications": {
+    "default": "{content}",
+    "award": "A mapod {ref} díjat kapott",
+    "rated": "{user} értékelte a következőt: {content}. Értékelés: {ref}",
+    "commented": "{user} hozzászólt ehhez: {ref}",
+    "replyToComment": "{user} válaszolt a hozzászólásodra a következőhöz: {ref}",
+    "mapAccepted": "A mapod elfogadásra került: {ref}"
+  },
+
+  "pages": {
+    "index": {
+      "filterSort": {
+        "results": "találat | találat",
+        "searchPlaceholder": "Keresés...",
+        "suggestion": "Javaslat:",
+        "search": "Keresés",
+        "searchMaps": "Mapok keresése",
+        "builtBy": "készítette:",
+        "withTag": "taggel",
+        "usingVehicle": "a következő járművet használva:",
+        "sortBy": "Rendezés",
+        "mostRecent": "Legújabb",
+        "popular": "Népszerű",
+        "top": "Legjobb",
+        "mostAwards": "Legtöbb Díj",
+        "lastUpdated": "Legutóbb Módosított",
+        "releaseDate": "Kiadás Dátuma",
+        "all": "Mind",
+        "thisYear": "Ebben Az Évben",
+        "thisMonth": "Ebben A Hónapban",
+        "thisWeek": "Ezen A Héten",
+        "today": "Ma",
+        "filter": "Szűrés"
+      }
+    },
+
+    "profile": {
+      "dlPack": "Map Pack Letöltése",
+      "socials": "Közösségek",
+      "activity": "Aktivitás",
+      "aboutMe": "Rólam",
+      "noActivity": "Nincs új aktivitás",
+      "memberSince": "Ezóta tag: ",
+      "mostRecentMap": "Legújabb Map",
+      "noMaps": "Ez a felhasználó még nem adott ki mapot.",
+      "noBio": "Ez a felhasználó nem írt semmit magáról."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Fiók",
+        "manage": "Kezelés",
+        "profile": "Profil",
+        "settings": "Beállítások",
+        "general": "Általános",
+        "notifications": "Értesítések",
+        "myNotifications": "Saját Értesítések",
+        "myMaps": "Saját Mapok"
+      },
+      "syncWithDiscord": "Szinkronizáció Discorddal?",
+      "username": "Felhasználónév",
+      "displayName": "Megjelenített Név",
+      "email": "E-Mail",
+      "lastSynced": "Legutóbbi Szinkronizáció",
+      "linkedAccounts": "Összekötött Fiókok",
+      "removePhoto": "Fotó törlése",
+      "selectPhoto": "Fotó kiválasztása",
+      "usePhoto": ["Fotó használata", "Saját avatar feltöltése"],
+      "useDiscordAvatar": ["Discord Avatar Használata", "Szinkronizáció Discord Avatarral"],
+      "aboutMe": "Rólam"
+    },
+
+    "map": {
+      "cardTitles": {
+        "comments": "Hozzászólások",
+        "informations": "Map Információk",
+        "authorsComment": "Készítői Megjegyzések",
+        "mostUsedObjects": "Legtöbbet Használt Objectek",
+        "embeddedAssets": "Beágyazott Eszközök",
+        "records": "Rekordok",
+        "whoRated": "Ki értékelte ezt a mapot"
+      },
+      "carousel": {
+        "ohNo": "Jaj ne!",
+        "nothing": "Úgy néz ki, hogy nincs mit mutatnunk",
+        "contact": "Vedd fel velünk a kapcsolatot és küldj pár képet / videót: {discord}"
+      },
+      "edit": "Szerkesztés",
+      "reportIssue": "Probléma Jelentése",
+      "notApproved": "Ez a map még nem lett elfogadva.",
+      "isPrivate": "Ez a map privát.",
+      "notAvailable": "Ezt a mapot nem lehet letölteni.",
+      "browseFiles": "Fájlok Tallózása",
+      "getOldVersion": "Előző verziók letöltése",
+      "noOldVersions": "Nincs elérhető előző verzió",
+      "noObjects": "Ebben a mapban nincsenek objectek.",
+      "noRatings": "Ez a map még nem lett értékelve.",
+      "weatherID": "Időjárás ID {id}",
+      "commentsDisabled": "Ehhez a maphoz ki lettek kapcsolva a hozzászólások.",
+      "addComment": "Hozzászólás írása...",
+      "addReply": "Válasz...",
+      "markedComment": "Megjelölt Hozzászólás"
+    },
+
+    "mapEdit": {
+      "title": "Map részletek",
+      "pressEnter": "(Nyomj ENTER-t a hozzáadáshoz)",
+      "lastUpdate": "Legutóbb frissítve ekkor: {ago}, {user} által",
+      "seoURL": "SEO Barát URL",
+      "authors": "Készítők",
+      "addAuthor": "Készítő hozzáadása...",
+      "releaseDate": "Kiadás Dátuma",
+      "fileName": "Fájl Neve",
+      "tags": "Tagek",
+      "addTag": "Tag hozzáadása...",
+      "description": "Leírás",
+      "difficulty": "Nehézség",
+      "gallery": "Galéria",
+      "video": "Videó",
+      "visibility": "Láthatóság",
+      "public": ["Publikus", "Mindenki számára látható"],
+      "private": ["Privát", "Csak te, készítő társaid és moderátorok láthatják"],
+      "toggleComments": "Hozzászólások Ki/Be",
+      "isFeatured": "Kiemelt?",
+      "versions": "Verziók"
+    },
+
+    "upload": {
+      "disclaimer": "A feltöltések manuálisan vannak ellenőrizve, ami hosszabb időt vehet igénybe.",
+      "queue": "Sor:",
+      "pendingFiles": "{0} függőben lévő fájl",
+      "browseFiles": "Fájlok Tallózása",
+      "dnd": "Húzd be a fájlokat ide",
+      "tos": "Mapjaid feltöltésével elfogadod a következőt: mtavault {link}",
+      "requirements": {
+        "cardTitle": "Követelmények",
+        "fileType": "A fájl kiterjesztése {extensions}",
+        "fileSize": "Maximum mérete {uploadLimit}",
+        "essentials": "Tartalmaznia kell minden szükséges fájlt",
+        "essentialsEx": "például a legtöbb maphoz: meta.xml, *.map",
+        "fileName": "A fájl neve kövesse a következő mintát:",
+        "fileNameEx": "[ARENA]Keszito1_Keszito2_Nev.zip",
+        "mapName": "A map neve kövesse a következő mintát:",
+        "mapNameEx": "Készítő1, Készítő2 & Készítő3 - Név"
+      }
+    }
+  }
+}
