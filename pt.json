@@ -125,10 +125,12 @@
       "dlPack": "Baixar Pacote de Mapas",
       "socials": "Redes Sociais",
       "activity": "Atividade",
+      "aboutMe": "Sobre mim",
       "noActivity": "Sem atividades recentes",
       "memberSince": "Membro desde",
       "mostRecentMap": "Mapa Mais Recente",
-      "noMaps": "Este usuário ainda não publicou nenhum mapa."
+      "noMaps": "Este usuário ainda não publicou nenhum mapa.",
+	  "noBio": "Este usuário não forneceu informações sobre si mesmo."
     },
 
     "account": {
@@ -141,9 +143,20 @@
         "notifications": "Notificações",
         "myNotifications": "Minhas Notificações",
         "myMaps": "Meus Mapas"
-      }
+      },
+      "syncWithDiscord": "Sincronizar com Discord?",
+      "username": "Nome de Usuário",
+      "displayName": "Nome de Exibição",
+      "email": "E-mail",
+      "lastSynced": "Última Sincronização",
+      "linkedAccounts": "Contas Vinculadas",
+      "removePhoto": "Remover Foto",
+      "selectPhoto": "Selecionar Foto",
+      "usePhoto": ["Usar Foto", "Carregue seu próprio avatar"],
+      "useDiscordAvatar": ["Usar Avatar do Discord", "Sincronize seu avatar com o Discord"],
+      "aboutMe": "Sobre Mim"
     },
-
+	
     "map": {
       "cardTitles": {
         "comments": "Comentários",
@@ -172,7 +185,8 @@
       "weatherID": "ID do Clima {id}",
       "commentsDisabled": "Os comentários para este mapa foram desativados.",
       "addComment": "Adicionar comentário...",
-      "addReply": "Responder..."
+      "addReply": "Responder...",
+	  "markedComment": "Comentário Marcado"
     },
 
     "mapEdit": {
@@ -183,6 +197,7 @@
       "authors": "Autores",
       "addAuthor": "Adicionar um autor...",
       "releaseDate": "Data de Lançamento",
+      "fileName": "Nome do Arquivo",
       "tags": "Tags",
       "addTag": "Adicionar uma tag...",
       "description": "Descrição",
