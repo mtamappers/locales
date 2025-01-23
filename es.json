@@ -125,10 +125,12 @@
       "dlPack": "Descargar paquete de mapas",
       "socials": "Redes",
       "activity": "Actividad",
+      "aboutMe": "Sobre mí",
       "noActivity": "Sin actividad reciente",
       "memberSince": "Miembro desde",
       "mostRecentMap": "Mapa más reciente",
-      "noMaps": "Este usuario no ha lanzado ningún mapa todavía."
+      "noMaps": "Este usuario no ha lanzado ningún mapa todavía.",
+      "noBio": "Este usuario no ha proporcionado nada sobre sí mismo."
     },
 
     "account": {
@@ -147,7 +149,12 @@
       "displayName": "Nombre para mostrar",
       "email": "E-Mail",
       "lastSynced": "Última sincronización",
-      "linkedAccounts": "Cuentas vinculadas"
+      "linkedAccounts": "Cuentas vinculadas",
+      "removePhoto": "Quitar foto",
+      "selectPhoto": "Seleccionar foto",
+      "usePhoto": ["Usar foto", "Subir tu propia imagen"],
+      "useDiscordAvatar": ["Usar imagen de Discord", "Sincronizar tu imagen con Discord"],
+      "aboutMe": "Sobre mí"
     },
 
     "map": {
@@ -178,7 +185,8 @@
       "weatherID": "ID del clima {id}",
       "commentsDisabled": "Los comentarios en este mapa han sido desactivados.",
       "addComment": "Agregar comentario...",
-      "addReply": "Responder..."
+      "addReply": "Responder...",
+      "markedComment": "Marked Comment"
     },
 
     "mapEdit": {
@@ -189,6 +197,7 @@
       "authors": "Autores",
       "addAuthor": "Agregar autor...",
       "releaseDate": "Fecha de lanzamiento",
+      "fileName": "Nombre del archivo",
       "tags": "Etiquetas",
       "addTag": "Agregar etiqueta...",
       "description": "Descripción",
